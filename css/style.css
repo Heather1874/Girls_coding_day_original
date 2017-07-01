@@ -1,7 +1,5 @@
 /* Effective stylesheet produced by snapshot save */
-@import url("css.css");
-@import url("css-1.css");
-@import url("css-2.css");
+
 *, *::before, *::after { border: 0px none; box-sizing: border-box; margin: 0px; outline: 0px none; padding: 0px; color: inherit; font: inherit; text-decoration: none; vertical-align: baseline; }
 article, aside, details, dialog, figcaption, figure, footer, header, main, menu, nav, section { display: block; }
 body { line-height: 1; }

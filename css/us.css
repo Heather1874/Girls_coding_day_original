@@ -1,7 +1,4 @@
 /* Effective stylesheet produced by snapshot save */
-@import url("css.css");
-@import url("css-1.css");
-@import url("css-2.css");
 *, *::before, *::after { border: 0px none; box-sizing: border-box; margin: 0px; outline: 0px none; padding: 0px; color: inherit; font: inherit; text-decoration: none; vertical-align: baseline; }
 article, aside, details, dialog, figcaption, figure, footer, header, main, menu, nav, section { display: block; }
 body { line-height: 1; }
@@ -38,7 +35,7 @@ a { color: rgb(34, 34, 34); text-decoration: underline; transition: all 0.25s ea
 a:hover { color: rgb(32, 216, 201); text-decoration: none; }
 header { width: 100%; position: fixed; top: 0px; z-index: 100; }
 @media only screen and (min-width: 768px) {
-  header { position: relative; background: rgb(255, 255, 255) url("line.gif") repeat-x scroll center top / 317px auto; padding: 0px 48px; min-width: 1216px; }
+  header { position: relative; background: rgb(255, 255, 255) url("../img/line.gif") repeat-x scroll center top / 317px auto; padding: 0px 48px; min-width: 1216px; }
 }
 header h1 { display: block; width: 138px; padding: 13px 15px 31px; box-sizing: content-box; }
 header h1 a { display: block; position: relative; text-decoration: none; }
@@ -62,7 +59,7 @@ header p.photobook_web a { display: block; width: 44px; height: 44px; background
   header p.photobook_web a:hover::before { background: rgb(32, 216, 201) none repeat scroll 0% 0%; }
   header p.photobook_web a:hover::after { border-color: transparent transparent transparent rgb(255, 255, 255); }
 }
-header .inner { text-align: center; width: 100%; margin: 0px auto; position: relative; z-index: 100; padding-top: 12px; background: rgb(255, 255, 255) url("line.gif") repeat-x scroll center top / 317px auto; }
+header .inner { text-align: center; width: 100%; margin: 0px auto; position: relative; z-index: 100; padding-top: 12px; background: rgb(255, 255, 255) url("../img/line.gif") repeat-x scroll center top / 317px auto; }
 @media only screen and (min-width: 768px) {
   header .inner { width: 1120px; }
 }
@@ -86,8 +83,8 @@ nav ul li { text-align: left; display: block; }
 @media only screen and (min-width: 768px) {
   nav ul li { display: inline-block; margin: 0px 19px; }
   nav ul li:last-child a { position: relative; padding: 10px 38px 10px 0px; }
-  nav ul li:last-child a::after { content: ""; background: rgb(255, 242, 0) url("icon_book.png") no-repeat scroll center center / cover ; width: 32px; height: 32px; border-radius: 50%; position: absolute; right: 0px; top: 0px; transition: all 0.25s ease 0s; }
-  nav ul li:last-child a:hover::after { background: rgb(32, 216, 201) url("icon_book_on.png") no-repeat scroll center center / cover ; }
+  nav ul li:last-child a::after { content: ""; background: rgb(255, 242, 0) url("../img/icon_book.png") no-repeat scroll center center / cover ; width: 32px; height: 32px; border-radius: 50%; position: absolute; right: 0px; top: 0px; transition: all 0.25s ease 0s; }
+  nav ul li:last-child a:hover::after { background: rgb(32, 216, 201) url("../img/icon_book_on.png") no-repeat scroll center center / cover ; }
 }
 nav ul li a { font-size: 20px; text-decoration: none; font-family: "Lato","游ゴシック体","Yu Gothic",YuGothic,Helvetica,sans-serif; font-weight: bold; color: rgb(34, 34, 34); display: block; padding: 15px 20px; letter-spacing: 1px; }
 @media only screen and (min-width: 768px) {
@@ -95,15 +92,15 @@ nav ul li a { font-size: 20px; text-decoration: none; font-family: "Lato","游�
 }
 .sticky { display: none; }
 @media only screen and (min-width: 768px) {
-  .sticky { display: block; position: fixed; top: -80px; opacity: 0; left: 0px; padding-top: 12px; background: rgb(255, 255, 255) url("line.gif") repeat-x scroll center top / 317px auto; min-width: 1216px; width: 100%; height: 80px; overflow: hidden; transition: all 0.75s ease 0s; border-bottom: 1px solid rgb(34, 34, 34); z-index: 101; }
+  .sticky { display: block; position: fixed; top: -80px; opacity: 0; left: 0px; padding-top: 12px; background: rgb(255, 255, 255) url("../img/line.gif") repeat-x scroll center top / 317px auto; min-width: 1216px; width: 100%; height: 80px; overflow: hidden; transition: all 0.75s ease 0s; border-bottom: 1px solid rgb(34, 34, 34); z-index: 101; }
   .sticky .inner { min-width: 1216px; padding: 0px 48px; margin: 0px auto; }
   .sticky h5 { width: 137px; margin: 20px 0px 22px; float: left; }
   .sticky a { display: block; }
   .sticky ul { float: right; overflow: hidden; margin: 16px 0px 15px; display: block; line-height: 1; width: 572px; text-align: right; background: rgb(255, 255, 255) none repeat scroll 0% 0%; position: relative; z-index: 1; }
   .sticky ul li { display: inline-block; margin: 0px 19px; }
   .sticky ul li:last-child a { position: relative; padding: 10px 38px 10px 0px; }
-  .sticky ul li:last-child a::after { content: ""; background: rgb(255, 242, 0) url("icon_book.png") no-repeat scroll center center / cover ; width: 32px; height: 32px; border-radius: 50%; position: absolute; right: 0px; top: 0px; transition: all 0.25s ease 0s; }
-  .sticky ul li:last-child a:hover::after { background: rgb(32, 216, 201) url("icon_book_on.png") no-repeat scroll center center / cover ; }
+  .sticky ul li:last-child a::after { content: ""; background: rgb(255, 242, 0) url("../img/icon_book.png") no-repeat scroll center center / cover ; width: 32px; height: 32px; border-radius: 50%; position: absolute; right: 0px; top: 0px; transition: all 0.25s ease 0s; }
+  .sticky ul li:last-child a:hover::after { background: rgb(32, 216, 201) url("img/icon_book_on.png") no-repeat scroll center center / cover ; }
   .sticky ul li a { text-decoration: none; font-family: "Lato","游ゴシック体","Yu Gothic",YuGothic,Helvetica,sans-serif; font-weight: bold; color: rgb(34, 34, 34); display: block; font-size: 14px; padding: 0px; }
   .sticky ul li a:hover { color: rgb(32, 216, 201); }
   .sticky .discription { position: absolute; left: 210px; top: 23px; }
@@ -139,7 +136,7 @@ section .inner { width: 100%; }
 #pagetop a { display: block; text-indent: 100%; white-space: nowrap; overflow: hidden; width: 44px; height: 44px; position: relative; }
 #pagetop a::after { content: ""; width: 0px; height: 0px; border-style: solid; border-width: 0px 8px 14px; border-color: transparent transparent rgb(34, 34, 34); position: absolute; top: 50%; left: 0px; right: 0px; margin: -8px auto 0px; transition: all 0.5s ease 0s; }
 @media only screen and (min-width: 768px) {
-  footer { min-width: 1216px; margin-top: -100px;}
+  footer { min-width: 1216px; }
 }
 footer .inner { width: 100%; margin: 0px auto; overflow: hidden; }
 footer .other_box { text-align: center; background: rgb(238, 238, 238) none repeat scroll 0% 0%; padding: 40px 20px 30px; }
@@ -330,29 +327,29 @@ table th { font-weight: bold; text-align: left; width: 31%; }
 }
 .works_box.daily { background: rgb(241, 241, 238) none repeat scroll 0% 0%; }
 @media only screen and (min-width: 768px) {
-  .works_box.daily { background: rgb(241, 241, 238) url("works_daily_pc.jpg") no-repeat scroll center top; }
+  .works_box.daily { background: rgb(241, 241, 238) url("img/works_daily_pc.jpg") no-repeat scroll center top; }
 }
 .works_box.memory { background: rgb(240, 239, 238) none repeat scroll 0% 0%; }
 @media only screen and (min-width: 768px) {
-  .works_box.memory { background: rgb(240, 239, 238) url("works_memory_pc.jpg") no-repeat scroll center top; }
+  .works_box.memory { background: rgb(240, 239, 238) url("img/works_memory_pc.jpg") no-repeat scroll center top; }
 }
 .works_box.hobby { background: rgb(243, 242, 238) none repeat scroll 0% 0%; }
 @media only screen and (min-width: 768px) {
-  .works_box.hobby { background: rgb(243, 242, 238) url("works_hobby_pc.jpg") no-repeat scroll center top; }
+  .works_box.hobby { background: rgb(243, 242, 238) url("img/works_hobby_pc.jpg") no-repeat scroll center top; }
 }
 .works_box.wedding { background: rgb(244, 244, 245) none repeat scroll 0% 0%; }
 .works_box.wedding img { position: relative; z-index: 0; }
 @media only screen and (min-width: 768px) {
-  .works_box.wedding { background: rgb(244, 244, 245) url("works_wedding_pc.jpg") no-repeat scroll center top; }
+  .works_box.wedding { background: rgb(244, 244, 245) url("img/works_wedding_pc.jpg") no-repeat scroll center top; }
 }
-#service { padding: 78px 20px 0px; margin-top: -78px; margin-bottom: 70px; }
+#service { margin-top: -78px; margin-bottom: 70px; }
 #service .service_photo { display: block; }
 @media only screen and (min-width: 768px) {
-  #service { width: 1216px; min-width: 1216px; margin: -52px auto 50px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; position: relative; }
+  #service { width: 1216px; min-width: 1216px; margin: -52px auto 10px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; position: relative; }
   #service .service_photo { display: none; }
   #service::after { content: ""; height: 1px; position: absolute; top: 137px; left: 48px; right: 48px; z-index: 0; }
   #service .inner { margin-top: -120px; }
-  #service .service_box { margin-top: 30px; padding-left: 580px; min-height: 540px; background: rgba(0, 0, 0, 0) url("service_book.jpg") no-repeat scroll 0% 0% / 540px auto; top: 0px; left: 0px; }
+  #service .service_box { margin-top: 100px; padding-left: 500px; min-height: 470px;top: 0px; left: 0px; background: rgba(0, 0, 0, 0) url("../img/img2.jpg") no-repeat scroll 0% 0% / 420px 320px;}
 }
 #service .headline__FG { padding: 37px 0px 30px; }
 @media only screen and (min-width: 768px) {
