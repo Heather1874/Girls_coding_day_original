@@ -1,0 +1,66 @@
+/* Effective stylesheet produced by snapshot save */
+.clearfix::before, .clearfix::after { content: " "; display: table; }
+.clearfix::after { clear: both; }
+.clearfix {  }
+input, textarea, input[type="submit"], select { border-radius: 0px; outline: medium none; }
+* { margin: 0px; padding: 0px; }
+html, body { margin: 0px; padding: 0px; }
+body { font-family: "garamond-premier-pro",serif; font-size: 16px; font-style: normal; font-weight: 400; color: rgb(48, 48, 48); }
+*::-moz-selection { background: rgb(232, 232, 232) none repeat scroll 0% 0%; text-shadow: none; }
+a, img { border: 0px none; outline: medium none; }
+a, a:link, a:visited, a:focus, a:active, a:hover { text-decoration: none; color: rgb(48, 48, 48); cursor: pointer; }
+h1, h2, h3, h4, h5, h6 { font-family: "Oswald",sans-serif; font-weight: 400; text-transform: uppercase; letter-spacing: 0.1em; }
+h1 { font-size: 20px; margin-bottom: 6px; }
+h3 { font-size: 15px; margin-bottom: 8px; }
+
+.aligncenter { text-align: center; }
+.inner { width: 940px; margin: 0px auto; }
+#nav { width: 100%; height: 90px; border-bottom: 2px solid rgb(48, 48, 48); position: absolute; top: 0px; left: 0px; z-index: 9999; visibility: hidden; }
+#nav .inner { position: relative; height: 90px; background: rgb(255, 255, 255) url("logo-nav.jpg") no-repeat scroll center center; }
+#nav .left, #nav .right { width: 355px; position: absolute; top: 0px; }
+#nav .left { left: 0px; text-align: right; }
+#nav .right { right: 0px; text-align: left; }
+#nav a { font-family: "Oswald",sans-serif; text-transform: uppercase; letter-spacing: 0.1em; font-size: 14px; line-height: 86px; padding: 2px 0px; }
+#nav a:hover, #nav a:active { border-bottom: 2px dotted rgb(48, 48, 48); }
+#nav .left a { margin-left: 30px; }
+#nav .right a { margin-right: 30px; }
+#homeBtn { display: block; position: absolute; width: 140px; height: 45px; text-indent: -9999em; top: 23px; left: 400px; padding: 0px; }
+#homeBtn:hover { border-bottom: 0px none !important; }
+#content { float: left; clear: both; width: 100%; }
+
+#bottom { margin-top: 56px; height: 152px; background: rgba(0, 0, 0, 0) url("bar-footer.jpg") no-repeat scroll 0px 0px; position: relative; }
+#bottom .col { width: 312px; height: 106px; position: absolute; top: 46px; }
+#bottom .col.one { left: 0px; }
+#bottom .col.two { left: 312px; }
+#bottom .col.three { left: 625px; }
+#bottom a, #bottom span { font-style: italic; }
+#bottom .social { display: inline-block; height: 22px; background-image: url("icons-social.jpg"); background-repeat: no-repeat; text-indent: -9999em; margin: 0px 8px; }
+#bottom .social.fb { width: 12px; background-position: 0px 0px; }
+#bottom .social.insta { width: 21px; background-position: -12px 0px; }
+#footer { height: 148px; position: relative; line-height: 148px; background: rgba(0, 0, 0, 0) url("logo-holly-hill.jpg") no-repeat scroll center center; text-transform: uppercase; letter-spacing: 0.1em; font-size: 12px; }
+#footer a:hover { border-bottom: 1px dotted rgb(48, 48, 48); }
+#footer .left { width: 377px; position: absolute; left: 0px; top: 0px; text-align: right; }
+#footer .right { width: 377px; position: absolute; right: 0px; top: 0px; text-align: left; }
+#contact { padding-top: 7px; background: rgba(0, 0, 0, 0) url("bar-top.jpg") no-repeat scroll 0px 0px; }
+#contact .left { width: 470px; float: left; padding-top: 15px; }
+#contact .left .section { float: right; width: 463px; padding-bottom: 28px; margin-bottom: 28px; border-bottom: 1px solid rgb(48, 48, 48); }
+#contact .left .section.last { border-bottom: 0px none; }
+#contact .left p { padding-left: 160px; position: relative; }
+#contact .left p { line-height: 24px; }
+#contact .left p span { position: absolute; left: 0px; font-family: "Oswald",sans-serif; text-transform: uppercase; letter-spacing: 0.1em; font-style: normal; font-size: 14px; }
+#contact .left p a { font-style: italic; }
+#contact .social { display: inline-block; height: 22px; background-image: url("icons-social.jpg"); background-repeat: no-repeat; text-indent: -9999em; }
+#contact .social.fb { width: 12px; background-position: 0px 0px; margin-right: 16px; }
+#contact .social.insta { width: 21px; background-position: -12px 0px; }
+#contact .right { width: 469px; float: right; border-left: 1px solid rgb(48, 48, 48); }
+#contact .right .form { padding: 28px 28px 40px; min-height: 530px; }
+#contact .right .form p { font-size: 18px; line-height: 30px; margin-bottom: 28px; font-style: inherit; }
+.form input[type="text"], .form textarea { font-family: "garamond-premier-pro",serif; font-size: 16px; font-style: italic; color: rgb(48, 48, 48); margin-bottom: 28px; }
+.form input[type="text"] { width: 413px; height: 28px; border-width: 0px 0px 1px; border-style: none none solid; border-color: currentcolor currentcolor rgb(48, 48, 48); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; text-indent: 10px; line-height: 1; }
+.form textarea { width: 395px; height: 180px; padding: 9px; border: 1px solid rgb(48, 48, 48); resize: none; }
+.form input[type="submit"] { width: 413px; padding: 12px 0px; color: rgb(255, 255, 255); font-family: "Oswald",sans-serif; letter-spacing: 0.1em; font-style: normal; font-size: 16px; text-align: center; text-transform: uppercase; border: 0px none; background: rgb(48, 48, 48) none repeat scroll 0% 0%; cursor: pointer; }
+.form input[type="submit"]:hover { background: rgb(255, 255, 255) none repeat scroll 0% 0%; color: rgb(48, 48, 48); outline: 2px solid rgb(48, 48, 48); }
+.form label.error { display: block; color: rgb(255, 0, 0); margin-bottom: 28px; margin-top: -20px; }
+.form .mailchimp { margin-bottom: 28px; position: relative; height: 20px; line-height: 20px; padding-left: 33px; font-style: italic; }
+#mailcheck { position: absolute; top: 0px; left: 0px; width: 20px; height: 20px; background-image: url("checkbox.jpg"); background-position: 0px 0px; background-repeat: no-repeat; cursor: pointer; }
+#contact_form{margin-top:-20px;}

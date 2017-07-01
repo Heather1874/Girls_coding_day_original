@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Girls Coding Day</title>
+    <link rel="icon" type="image/png" sizes="96x96" href="img/logo_icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.KinSlideshow-1.0.js"></script>
+    
+	<style>
+		#kinSlideshow{
+			visibility:hidden;
+		}
+		
+		#kinSlideshow > a {
+			display: block;
+		}
+	</style>
+    <script type="text/javascript">
+		var moveStyle=null;
+		var rand = parseInt(Math.random() * 4)
+		switch (rand) {
+			case 0:
+				moveStyle = "left";
+				break;
+			case 1:
+				moveStyle = "right";
+				break;
+			case 2:
+				moveStyle = "down";
+				break;
+			case 3:
+				moveStyle = "up";
+				break;
+		}
+		$(function () {
+			$("#kinSlideshow").KinSlideshow({moveStyle: 'down'});
+		});
+	</script>
+</head>
+<body id="top">
+<!-- End Google Tag Manager -->
+<div id="wrap">
+    <header>
+        <div class="inner">
+            <h2 class="headline">Girls Coding Day</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="javascript:void(0)" style="color: rgb(32, 216, 201)">首页</a></li>
+                <li><a href="joinus.html">参与方式</a></li>
+                <li><a href="us.html">组员风采</a></li>
+                <li><a href="http://mp.weixin.qq.com/s/JyZ69Jf4prxOlMGyHbOY-g" target="_blank">本次活动概况预览</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="inner">
+            	<!--slide area-->
+                <div id="kinSlideshow" style="height: 448px; width: 1030px; visibility: visible; overflow: hidden; position: relative; margin-left: -85px;">
+                	<a href="javascript:void(0)"><img src="img/city_club.jpg" alt="城市足迹" style="height:448px; width:850px;" /></a>
+                    <a href="javascript:void(0)"><img src="img/top_visual_pc.jpg" alt="女性编程日" style="height:448px; width:850px;" /></a>
+                </div>
+                <!--slide area-->
+                <div class="main_copy" style="margin-left: 200px;">
+                    <h2 class="headline"><span>女性编程日</span></h2>
+                    <h6>“由社会企业Coding Girls Club联合众多女性友好的公司和程序员们</h6><br>
+                    <h6>为促进性别平等而举办的公益编程工作坊”</h6>
+                    <br>
+                    <p>
+                    	提供1天半的Web开发入门课程<br>让更多的女性了解编程，享受编程的乐趣<br>
+                    	挖掘自身存在的更多潜力</br>从而改变自己的人生
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer>
+        	<div class="other_box">
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
